@@ -31,8 +31,8 @@ init(autoreset=True)
 im = Image.open(f"{sys.argv[1]}.jpg")
 im_width, im_height = im.size
 aspect_ratio = im_width / im_height
-new_height = 150
-new_width = int(new_height * aspect_ratio)
+new_height = 100
+new_width = int(new_height * aspect_ratio * 2.4)
 dim = (new_width, new_height)
 im = im.resize(dim, Image.Resampling.LANCZOS)
 
@@ -61,6 +61,6 @@ for row in range(height):
             lux = dark_version(lux)
         brightness[row][col] = lux
 
-        for i in range(2):
+        for i in range(1):
             print(colors[int(lux / 32)] + assign_char(lux, ascii), end='')
     print()
