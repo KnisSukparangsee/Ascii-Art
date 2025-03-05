@@ -1,6 +1,6 @@
 # Ascii-Art
 # Description
-A program that converts JPG files into colorful ASCII art in the terminal.
+A program that converts JPG files into colorful ASCII art in the terminal. Inspired by [Robert Heaton](https://robertheaton.com/2018/06/12/programming-projects-for-advanced-beginners-ascii-art/).
 
 # Usage
 Upload an image to the same directory as main.py  
