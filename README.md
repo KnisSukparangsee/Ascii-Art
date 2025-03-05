@@ -15,13 +15,13 @@ Type in the terminal: `python main.py image_name filter_name (dark_optional)`
 # Examples: 
 
 ## Original Image
-<img src="Jayson_Tatum.jpg" alt="Jayson Tatum" width="200">
+<img src="Jayson_Tatum.jpg" alt="Jayson Tatum" width="400">
 
 ## Luminosity filter adjusts RGB brightness value based on human perception  
 ### Command: `python main.py Jayson_Tatum lum`  
-<img src="Lum_Jayson.png" alt="Luminous Jayson Tatum" width="200">
+<img src="Lum_Jayson.png" alt="Luminous Jayson Tatum" width="400">
 
 
 ## Luminosity filter with inverted colors  
 ### Command: `python main.py Jayson_Tatum lum dark`  
-<img src="Lum_Dark_Jayson.png" alt="Inverted Luminous Jayson Tatum" width="200">
+<img src="Lum_Dark_Jayson.png" alt="Inverted Luminous Jayson Tatum" width="400">
