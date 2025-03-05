@@ -10,16 +10,16 @@ Notes:
 - Do not include the image's file extension in image_name
 - filter_name must be typed exactly the same as one of the given filter names (case sensitive)
 
-Examples: 
+# Examples: 
 
-# Original Image
+## Original Image
 ![Jayson Tatum](Jayson_Tatum.jpg)
 
-# Luminosity filter adjusts RGB brightness value based on human perception  
-# Command: `python main.py Jayson_Tatum lum`  
+## Luminosity filter adjusts RGB brightness value based on human perception  
+### Command: `python main.py Jayson_Tatum lum`  
 ![Luminous Jayson Tatum](Lum_Jayson.png)
 
 
-# Luminosity filter with inverted colors  
-# Command: `python main.py Jayson_Tatum lum dark`  
+## Luminosity filter with inverted colors  
+### Command: `python main.py Jayson_Tatum lum dark`  
 ![Dark Luminous Jayson Tatum](Lum_Dark_Jayson.png)
